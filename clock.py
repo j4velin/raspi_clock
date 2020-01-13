@@ -15,7 +15,7 @@ pixels.show()  # Make sure to call show() after changing any pixels!
 
 try:
     for minute in range(60):
-        for second in range(10):
+        for second in range(60):
             if second < minute:
                 pixels.set_pixel_rgb(second, 0, 0, 255)
             else:
